@@ -3,6 +3,6 @@
 ## Updated Portfolio, missing resume that I will upload soon.
 
 ![GitHubLiveLink](assets/img/livelinkimage.png)
-![gitHubRepo](https://github.com/Drop-G/TedPetersFSDPortfolio)
+<a href="https://github.com/Drop-G/TedPetersFSDPortfolio"> GitHub Link</a>
 
 
