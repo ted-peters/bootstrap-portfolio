@@ -1,12 +1,7 @@
-/*!
-    * Start Bootstrap - Grayscale v6.0.2 (https://startbootstrap.com/themes/grayscale)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-    */
-    (function ($) {
-    "use strict"; // Start of use strict
 
-    // Smooth scrolling using jQuery easing
+    (function ($) {
+    "use strict"; 
+    
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
