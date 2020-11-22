@@ -1,0 +1,314 @@
+.skills {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #747474;
+}
+
+.skill-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 1700px;
+    margin: auto;
+}
+
+.skill-col-1 {
+    position: relative;
+    width: 50%;
+    max-width: 700px;
+    height: 600px;
+    margin: 10px 0px 10px;
+    vertical-align: top;
+}
+
+.skill-col-2 {
+    position: relative;
+    width: 50%;
+    margin: 10px 0px 10px;
+    vertical-align: top;
+}
+
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all ease-in-out .7s;
+    z-index: -1;
+}
+
+.cirle_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.circle-1 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, 1);
+}
+
+.circle-2 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .8);
+}
+
+.circle-2.is_showing {
+    width: 200px;
+    height: 200px;
+    border: 2px dotted rgba(128, 139, 150, .8);
+}
+
+.circle-3 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .6);
+}
+
+.circle-3.is_showing {
+    width: 350px;
+    height: 350px;
+    border: 2px dotted rgba(128, 139, 150, .6);
+}
+
+.circle-4 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .4);
+}
+
+.circle-4.is_showing {
+    width: 550px;
+    height: 550px;
+    border: 2px dotted rgba(128, 139, 150, .4);
+}
+
+.circle-5 {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgba(128, 139, 150, .2);
+}
+
+.circle-5.is_showing {
+    width: 750px;
+    height: 750px;
+    border: 2px dotted rgba(255, 255, 255, 0.2);
+}
+
+.logos {
+    position: absolute;
+    width: 100%;
+    min-width: 800px;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -5000;
+}
+
+.html-logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 15%;
+    left: 10%;
+    background-image: url("../images/html_logo.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.css-logo {
+    position: absolute;
+    width: 80px;
+    height: 130px;
+    top: 70%;
+    left: 80%;
+    background-image: url("../images/css3.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.ajax-logo {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 10%;
+    left: 80%;
+    background-image: url("../images/ajax.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.nodejs-logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: 15%;
+    background-image: url("../images/nodejs.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.jQuery-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 35%;
+    background-image: url("../images/jquery.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.mysql-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -5%;
+    left: 55%;
+    background-image: url("../images/mysql.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8;
+    z-index: -500;
+}
+
+.react-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 70%;
+    left: 50%;
+    background-image: url("../images/react.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+    border-radius: 20px;
+}
+
+.bootstrap-logo {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 90%;
+    left: 40%;
+    background-image: url("../images/bootstrap.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+}
+
+.js-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    left: 75%;
+    background-image: url("../images/javascript.png");
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+    z-index: -500;
+    border-radius: 20px;
+}
+
+.content-container {
+    position: relative;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, -50%);
+    text-align: left;
+    transition: all cubic-bezier(0.46, 0.53, 0.29, 1.26) .7s;
+    opacity: 0;
+}
+
+.content-container.is_showing {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.skills-breaker {
+    margin: 15px 0 -5px 0px;
+}
+
+.content-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.content-container p {
+    color: #000000;
+    line-height: 30px;
+}
+
+@media (max-width: 1350px) {
+    .content-container {
+        margin-top: 50px;
+        width: 90%;
+        padding: 50px 0px;
+    }
+    .skill-container {
+        flex-wrap: wrap;
+    }
+    .skill-col-1 {
+        width: 100%;
+    }
+    .circle-1 {
+        width: 80px;
+        height: 80px;
+        border: 2px dotted rgba(128, 139, 150, .8);
+    }
+    .circle-2.is_showing {
+        width: 150px;
+        height: 150px;
+        border: 2px dotted rgba(128, 139, 150, .8);
+    }
+    .circle-3.is_showing {
+        width: 270px;
+        height: 270px;
+        border: 2px dotted rgba(128, 139, 150, .6);
+    }
+    .circle-4.is_showing {
+        width: 450px;
+        height: 450px;
+        border: 2px dotted rgba(128, 139, 150, .4);
+    }
+    .circle-5.is_showing {
+        width: 650px;
+        height: 650px;
+        border: 2px dotted rgba(128, 139, 150, .2);
+    }
+    .skill-col-2 {
+        width: 100%;
+        margin-top: 100px;
+        height: auto;
+    }
+}
